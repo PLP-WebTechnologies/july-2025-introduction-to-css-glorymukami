@@ -1,0 +1,124 @@
+/* =========================
+   GENERAL PAGE STYLING
+   ========================= */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+/* =========================
+   HEADER
+   ========================= */
+.header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+}
+
+.tagline {
+    font-style: italic;
+    opacity: 0.9;
+}
+
+/* =========================
+   CARD SECTIONS
+   ========================= */
+.card {
+    background-color: white;
+    margin: 20px auto;                 
+    padding: 20px;                     
+    border: 3px solid #ddd;            
+    border-radius: 8px;
+    width: 80%;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+/* =========================
+   BUTTON STYLING
+   ========================= */
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+/* =========================
+   BOX MODEL DIAGRAM
+   ========================= */
+.box-model-demo {
+    text-align: center;
+}
+
+.margin-box {
+    background-color: #ffcccc; /* Red for Margin */
+    padding: 30px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.border-box {
+    background-color: #ffe6b3; /* Yellow for Border */
+    border: 5px solid black;
+    padding: 25px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.padding-box {
+    background-color: #ccffcc; /* Green for Padding */
+    padding: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.content-box {
+    background-color: #cce5ff; /* Blue for Content */
+    padding: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.diagram-note {
+    margin-top: 15px;
+    font-size: 14px;
+    font-style: italic;
+    color: #555;
+}
+
+/* =========================
+   FOOTER
+   ========================= */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+.diagram-img {
+    width: 80%; /* makes it responsive */
+    max-width: 500px;
+    border: 3px solid #ddd;
+    border-radius: 8px;
+    display: block;
+    margin: 15px auto;
+}
+
